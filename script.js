@@ -1,3 +1,4 @@
 function changeText() {
-  document.getElementById("title").innerText = "You clicked!";
+  const title = document.getElementById("title");
+  title.innerText = "You clicked!";
 }

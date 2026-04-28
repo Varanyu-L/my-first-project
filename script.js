@@ -7,7 +7,10 @@ function changeText() {
     title.innerText = "Hello World";
   }
 }
+
 function showName() {
+  console.log("clicked"); // 👈 เพิ่มบรรทัดนี้
+
   const name = document.getElementById("nameInput").value;
   document.getElementById("output").innerText = "Hello " + name;
 }
